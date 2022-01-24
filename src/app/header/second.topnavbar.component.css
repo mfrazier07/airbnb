@@ -1,0 +1,10 @@
+.searchbar{
+    border-radius: 50px;
+    height: 60px;
+
+}
+.searchbutton{
+    border-radius:110%;
+    transform:translateX(-60px) scaleX(.75) scaleY(.75);
+    
+}

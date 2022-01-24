@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BottomNavBarComponent } from './footer/bottomnavbar.component';
+import { SecondTopNavBarComponent } from './header/second.topnavbar.component';
 import { TopNavBarComponent } from './header/topnavbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
+    SecondTopNavBarComponent,
     BottomNavBarComponent
 
   ],

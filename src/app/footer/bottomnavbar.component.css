@@ -1,0 +1,15 @@
+.footer{
+    background-color: #f7f7f7;
+    margin: 0%;
+}
+
+/* Resource text */
+.resources-text{
+    color:#504946;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:inherit;
+    line-height: 2.3;
+}
+
+

@@ -1,9 +1,57 @@
-<nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand">Navbar</a>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+<nav class="navbar navbar-margin navbar-light bg-black">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="assets/airbnb-logo.png" alt="" height="40">
+    </a>
+
+    <div>
+      <ul class="nav" style="scroll-margin-inline: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active format" aria-current="page" href="#">Places to stay</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active format" aria-current="page" href="#">Experiences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active format" href="#">Online Experiences</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+
+    <div class="d-flex">
+      <a class="btn btn-black button format" href="#" role="button">Become a Host</a>
+
+      <button class="btn btn-black format button" type="button">
+        <svg class="bi" width="20" height="17" fill="white">
+          <use xlink:href="assets\bootstrap-icons.svg#globe" />
+        </svg>
+      </button>
+
+      <!-- Dropdown Menu -->
+      <button type="button" class="btn dropdown-toggle dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+       
+        <!-- List Icon -->
+        <svg class="bi" width="32" height="25" fill="black">
+          <use xlink:href="assets\bootstrap-icons.svg#list" />
+        </svg>
+        
+        <!-- Person Icon -->
+        <svg class="bi" width="32" height="25" fill="grey">
+          <use xlink:href="assets\bootstrap-icons.svg#person-circle" />
+        </svg>
+      </button>
+
+      <!-- Dropdown Items -->
+      <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="#">Sign up</a></li>
+        <li><a class="dropdown-item" href="#">Log in</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Host your home</a></li>
+        <li><a class="dropdown-item" href="#">Host an experience</a></li>
+        <li><a class="dropdown-item" href="#">Help</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,44 @@
+.navbar-margin {
+    margin-left: 0px;
+}
+/* Word format */
+.format {
+    text-align-last: center;
+    vertical-align: sub;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:700;
+    
+    color:white;
+}
+/* Underline under tabs */
+a.nav-link.active{
+    border-bottom-style: solid;
+    border-color: white;
+}
+
+/* Button hover */
+.button:hover {
+    background-color: rgba(63, 63, 63, 0.678);
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;    
+}
+
+/* Dropdown Menu */
+.dropdown {
+    border-radius: 30px;
+    background-color: white;
+    width:85px;
+    float:left;
+    clear:both;
+}
