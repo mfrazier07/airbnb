@@ -12,7 +12,7 @@
     color:white;
 }
 /* Underline under tabs */
-a.nav-link.active{
+a.nav-link.active:hover{
     border-bottom-style: solid;
     border-color: white;
 }
