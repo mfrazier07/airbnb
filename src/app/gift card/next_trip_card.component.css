@@ -1,0 +1,46 @@
+.textformat{
+    font-size: 25px;
+    font-weight: 600;
+    height: 28px;
+}
+.card{
+    border-style: none;
+
+
+}
+
+.card-img-top{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card-body{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.link{
+    text-decoration: none;
+}
+
+.trip1{
+    background-color: #d93b30;
+    color:white;
+    
+}
+
+.trip2{
+    background-color: #cc2d4a;
+    color: white;
+}
+
+.trip3{
+    background-color: #bc1a6e;
+    color: white;
+}
+
+.trip4{
+    background-color: #de3151;
+    color: white;
+}

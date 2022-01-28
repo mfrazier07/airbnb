@@ -1,0 +1,43 @@
+.text-format{
+    text-align:left;
+    color: #222222;
+    font-weight: 500;
+
+}
+.text1{
+    font-size: 15px;
+    line-height: 3px;
+    text-align: justify;
+
+}
+
+.text2{
+    font-size: 40px;
+    line-height: 35px;
+    text-align:justify;
+}
+
+.card{
+    align-content: center;
+    background: none;
+    background-color: #ebebeb;
+    border-color: #ebebeb;
+    border-radius: 20px;
+    height: fit-content;
+
+
+}
+
+.card-img{
+    align-content: right;
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* .div{
+    padding-top: 96px;
+    padding-right: 96px;
+    padding-bottom: 96px;
+    padding-left: 96px;
+} */
