@@ -1,4 +1,4 @@
-export const mock_product_list = [
+export const mock_trip_list = [
     {
         img: "assets/trips1.jpg",
         place: "Sevierville",

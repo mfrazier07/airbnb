@@ -1,4 +1,4 @@
-export class ProductItemModel{
+export class TripItemModel{
     img: string;
     place: string;
     miles: number;
