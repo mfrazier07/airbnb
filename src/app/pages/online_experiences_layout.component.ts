@@ -1,4 +1,6 @@
 import { Component } from "@angular/core";
+import { card_list } from "./card_list";
+import { CardModel } from "./mock_cards.model";
 
 @Component({
     selector:'online-experiences',
@@ -7,5 +9,12 @@ import { Component } from "@angular/core";
 })
 
 export class OnlineExpComponent{
+    cardTrips: CardModel [] = [];
 
+    constructor(){
+        for(var cardTrip of card_list){
+            console.log(cardTrip);
+            this.cardTrips.push(cardTrip);
+        }
+    }
 }

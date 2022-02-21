@@ -1,0 +1,20 @@
+.card-img-top{
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+}
+.card{
+   width: 250px;
+   border-radius: 100%;
+}
+.card-title{
+    font-size: 15px;
+    font-weight: 200;
+}
+.link{
+    text-decoration: none;
+    color: black
+}
+.price{
+    font-weight: bold;
+}

@@ -14,6 +14,7 @@ import { HostComponent } from './pages/become_host_layout.component';
 import { HostHomeComponent } from './pages/host_home_layout.component';
 import { HelpComponent } from './pages/help_layout.component';
 import { HostExperienceComponent } from './pages/host_experience_layout.component';
+import { VerticalCardComponent } from './pages/vertical_card.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,9 @@ import { HostExperienceComponent } from './pages/host_experience_layout.componen
     HostComponent,
     HostHomeComponent,
     HelpComponent,
-    HostExperienceComponent
+    HostExperienceComponent,
+    VerticalCardComponent
+
     
 
 

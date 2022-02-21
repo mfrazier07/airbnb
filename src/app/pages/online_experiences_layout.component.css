@@ -1,0 +1,56 @@
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.weekTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+.collection{
+    font-size: 12px;
+}
+.planTripText{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bigCard{
+    height: auto;
+    width: 600px;
+    border-radius: 20px;
+}
+.whiteBtn{
+    border-radius: 10px;
+}
+
+.img{
+    border-radius: 20px;
+    height: 155px;
+    width: 130px;
+    align-content: center;
+    margin: 5%;
+    
+}
+.card-title-small{
+    font-size: 15px;
+    font-weight: 200;
+}
+.cardBtn{
+    border-radius: 10px;
+    height: 33px;
+    font-size: 13px;
+    text-align: justify;
+}
+.virtualCard{
+    border-radius: 12px;
+}
+.virtualCard-text{
+    font-size: 15px;
+    line-height: normal;
+}
+.bottomBtn{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    
+}
