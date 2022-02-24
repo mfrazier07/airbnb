@@ -15,6 +15,8 @@ import { HostHomeComponent } from './pages/host_home_layout.component';
 import { HelpComponent } from './pages/help_layout.component';
 import { HostExperienceComponent } from './pages/host_experience_layout.component';
 import { VerticalCardComponent } from './pages/vertical_card.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { VerticalCardComponent } from './pages/vertical_card.component';
     HostHomeComponent,
     HelpComponent,
     HostExperienceComponent,
-    VerticalCardComponent
+    VerticalCardComponent,
+    UserInfoComponent,
+    
 
     
 
@@ -39,7 +43,8 @@ import { VerticalCardComponent } from './pages/vertical_card.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
