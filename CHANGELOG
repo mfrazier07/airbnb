@@ -7,3 +7,15 @@ Main Features :
     4. Help - "help_layout.component.ts/css/html"
     5. Host an Experience - "host_experience_layout.component.ts/css/html"
   - Added 5 routes to the 5 layout components
+
+Lab 5 2.22.22
+Main Features:
+Created 3 new components for 2 layout components
+1.) Online Experiences - "online_experiences_layout.component.ts/css/html"
+-"New this week" card component
+-"Plan a trip" cards: I used an ngFor* loop to create this, I attempted to put this inside a carousel, but couldn't get the slides to to move
+-"Starting in 6 hours" cards component
+
+2.)Host your Home - "host_home_layout.component.ts/css/html"
+-Created a large card, couldn't figure out how to include a video, but added a picture instead
+-Created a card with button for questions
