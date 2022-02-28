@@ -19,3 +19,9 @@ Created 3 new components for 2 layout components
 2.)Host your Home - "host_home_layout.component.ts/css/html"
 -Created a large card, couldn't figure out how to include a video, but added a picture instead
 -Created a card with button for questions
+
+Lab 6 3.1.22
+Main Features:
+1.) Created a Backend using Firebase Console
+2.) Used Angular’s HTTP Client to obtain the data from the backend
+3.) Created a new component and used it to display the data obtained from the backend - "user-info.component"
