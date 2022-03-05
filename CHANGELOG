@@ -25,3 +25,13 @@ Main Features:
 1.) Created a Backend using Firebase Console
 2.) Used Angular’s HTTP Client to obtain the data from the backend
 3.) Created a new component and used it to display the data obtained from the backend - "user-info.component"
+
+
+Lab 7 3.4.22
+Main Features:
+1.) Moved the online experience cards content of mock data to my Realtime Database
+2.) Created a Service component ("cards.service.ts") that communicates with the backend and obtains the data for the programmatic components
+3.) Used the Service component ("cards.service.ts") inside the component that displays the programmatic components ("online_experiences_layout.component.ts")
+
+
+
