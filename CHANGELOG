@@ -33,6 +33,13 @@ Main Features:
 2.) Created a Service component ("cards.service.ts") that communicates with the backend and obtains the data for the programmatic components
 3.) Used the Service component ("cards.service.ts") inside the component that displays the programmatic components ("online_experiences_layout.component.ts")
 
+Lab 8 3.23.22
+Main Features:
+1.) Added a form for entering card/component information
+2.) Added a method to the service component that sends data to the backend
+
+
+
 Lab 8 3.19.22
 Main Features:
 1.) Configured Angular Fire library
