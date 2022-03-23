@@ -106,6 +106,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "airbnb:build:production",
+            "firebaseProject": "airbnb-94930",
+            "firebaseHostingSite": "airbnb-94930"
+          }
         }
       }
     }

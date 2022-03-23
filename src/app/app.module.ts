@@ -16,7 +16,12 @@ import { HelpComponent } from './pages/help_layout.component';
 import { HostExperienceComponent } from './pages/host_experience_layout.component';
 import { VerticalCardComponent } from './pages/vertical_card.component';
 import { UserInfoComponent } from './user-info/user-info.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { AddCardsComponent } from './add-cards/add-cards.component'
+import { FormsModule } from '@angular/forms';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -35,6 +40,7 @@ import {HttpClientModule} from '@angular/common/http'
     HostExperienceComponent,
     VerticalCardComponent,
     UserInfoComponent,
+    AddCardsComponent,
     
 
     
@@ -44,7 +50,11 @@ import {HttpClientModule} from '@angular/common/http'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig, 'airbnb'),
+    AngularFirestoreModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

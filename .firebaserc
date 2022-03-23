@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "airbnb-94930"
+  },
+  "targets": {
+    "airbnb-94930": {
+      "hosting": {
+        "airbnb": [
+          "airbnb-94930"
+        ]
+      }
+    }
   }
 }

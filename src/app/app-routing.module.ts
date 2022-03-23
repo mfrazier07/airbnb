@@ -7,6 +7,7 @@ import { HostComponent } from './pages/become_host_layout.component';
 import { HostHomeComponent } from './pages/host_home_layout.component';
 import { HelpComponent } from './pages/help_layout.component';
 import { HostExperienceComponent } from './pages/host_experience_layout.component';
+import { AddCardsComponent } from './add-cards/add-cards.component';
 
 const routes:Routes = [
   {path: '', component:HomeLayoutComponent},
@@ -15,8 +16,8 @@ const routes:Routes = [
   {path: 'become-a-host', component: HostComponent},
   {path: 'host-home', component: HostHomeComponent},
   {path: 'help', component: HelpComponent},
-  {path: 'host-experience', component: HostExperienceComponent}
-
+  {path: 'host-experience', component: HostExperienceComponent},
+  {path: 'admin', component: AddCardsComponent}
 ];
 
 @NgModule({
