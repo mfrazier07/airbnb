@@ -8,7 +8,8 @@ import { AuthResponse } from "./authResponse";
 })
 export class AuthService{
     baseUrl:string = "https://identitytoolkit.googleapis.com/v1/accounts";
-    signUpEndpoint:string = "signUp"
+    signUpEndpoint:string = "signUp";
+    signInEndpoint:string = "signInWithPassword";
 
     public constructor(private http:HttpClient){
 
@@ -21,5 +22,15 @@ export class AuthService{
         }
         return this.http.post<AuthResponse>(this.baseUrl + ':' + this.signUpEndpoint + '?' +
              "key=" + environment.firebaseConfig.apiKey, requestBody);
+    }
+
+    public login(email:string, password:string){
+        const requestBody = {
+            "email":email,
+            "password":password,
+            "returnSecureToken": true
+        }
+        return this.http.post<AuthResponse>(this.baseUrl + ':' + this.signInEndpoint + '?' +
+        "key=" + environment.firebaseConfig.apiKey, requestBody);
     }
 }
