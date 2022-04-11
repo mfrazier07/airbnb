@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import { NgForm } from "@angular/forms";
+import { Router } from "@angular/router";
 import { Observable } from "rxjs";
 import { AuthService } from "./auth.service";
 import { AuthResponse } from "./authResponse";
@@ -13,7 +14,7 @@ export class AuthComponent {
     public buttonClicked!: string;
     private authObservable!: Observable<AuthResponse>;
 
-    constructor(private authService: AuthService) {
+    constructor(private authService: AuthService, private router:Router) {
 
     }
 
@@ -31,6 +32,7 @@ export class AuthComponent {
         this.authObservable.subscribe(
             (data:AuthResponse) => {
                 console.log(data);
+                this.router.navigate(['/host-home']);
             },
             error => {
                 console.log(error.error);
