@@ -4,7 +4,7 @@
             <br>
             <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                     placeholder="Enter email"
                     ngModel name="email"
                     required email>
@@ -17,7 +17,9 @@
                 required password minlength="8">
             </div>
             <br>
-            <button type="submit" class="btn btn-primary" [disabled] = "!authForm.valid">Submit</button>
+            <button type="submit" class="btn btn-primary" [disabled] = "!authForm.valid">Sign Up</button>
+            
+            <button type="submit" class="btn btn-primary" [disabled] = "!authForm.valid">Sign In</button>
         </form>
     </div>
 </div>
