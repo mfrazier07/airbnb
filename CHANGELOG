@@ -40,11 +40,17 @@ Main Features:
 
 
 
-Lab 8 3.19.22
+Lab 9 3.19.22
 Main Features:
 1.) Configured Angular Fire library
 2.)  Modified the service from the last lab by removing HTTpClient dependency and injecting AngularFireDatabase as dependency.
 
+Lab 10 4.12.22
+Main Features:
+1.) Enabled Firebase authentication.
+2.) Created an authentication component.
+3.) Created an Authentication Service.
+4.) Connected the Authentication component with the Authentication service and displayed an appropriate message to the user.
 
 
 
